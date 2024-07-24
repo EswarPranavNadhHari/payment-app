@@ -5,7 +5,7 @@ import { InputBox } from "../components/InputBox"
 import { User } from "../components/User"
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
-import { useDebouncing } from "../hooks/Debouncing"
+import { useDebouncing } from "../hooks/useDebouncing"
 
 export const Dashboard = () => {
     const [balance, setBalance] = useState("")
